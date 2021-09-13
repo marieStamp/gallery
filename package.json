@@ -1,0 +1,36 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "image-webpack-loader": "^7.0.1",
+    "sass": "^1.39.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.2.1",
+    "webpack-dev-server": "^4.2.0"
+  },
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production",
+    "serve": "webpack serve --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marieStamp/gallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marieStamp/gallery/issues"
+  },
+  "homepage": "https://github.com/marieStamp/gallery#readme"
+}
