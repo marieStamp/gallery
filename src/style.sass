@@ -1,0 +1,39 @@
+*
+    font-family: Georgia
+
+main
+    padding: 20px 80px 20px 80px
+
+.main_header
+    color: red
+
+.catalogue
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    row-gap: 40px
+    width: 100%
+
+    &__item
+        width: 380px
+        height: 250px
+        display: flex
+        flex-direction: column
+        border: solid 1px #C0C0C0
+        text-align: center
+
+.item
+    &__photo
+        width: 100%
+        height: calc( 100% - 50px )
+    &__audio
+        width: 100%
+        padding-top: 70px
+    &__video
+        height: 200px
+        object-fit: cover
+
+.audioWrap
+    width: 380px
+    height: 250px
+    background-color: #eaeaea
